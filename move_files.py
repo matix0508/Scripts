@@ -33,7 +33,7 @@ class MoveApp:
             if target == self.categories[i]:
                 target_path = self.target_dirs[i]
         if not target_path:
-            raise ValueError("I don't have anticipated that input LOL")
+            raise ValueError("I hadn't anticipated that input LOL")
 
         return os.path.join(target_path, filename)
 
